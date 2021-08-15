@@ -148,13 +148,13 @@ let
         sha512 = "OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==";
       };
     };
-    "highlight.js-9.12.0" = {
+    "highlight.js-11.2.0" = {
       name = "highlight.js";
       packageName = "highlight.js";
-      version = "9.12.0";
+      version = "11.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/highlight.js/-/highlight.js-9.12.0.tgz";
-        sha1 = "e6d9dbe57cbefe60751f02af336195870c90c01e";
+        url = "https://registry.npmjs.org/highlight.js/-/highlight.js-11.2.0.tgz";
+        sha512 = "JOySjtOEcyG8s4MLR2MNbLUyaXqUunmSnL2kdV/KuGJOmHZuAR5xC54Ko7goAXBWNhf09Vy3B+U7vR62UZ/0iw==";
       };
     };
     "html-entities-1.2.1" = {
@@ -405,7 +405,7 @@ let
       sources."exit-0.1.2"
       sources."fs.realpath-1.0.0"
       sources."glob-7.1.7"
-      sources."highlight.js-9.12.0"
+      sources."highlight.js-11.2.0"
       sources."html-entities-1.2.1"
       sources."htmlparser2-3.10.1"
       sources."inflight-1.0.6"
